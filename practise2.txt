@@ -1,0 +1,94 @@
+An operating system is an interface between the user and the hardware components. It performs different tasks. An operating system provides GUI or CLI 
+for the user to perform tasks.
+ Some operating systems only provide CLI while others provide both GUI and CLI. A GUI consists of controls or widgets to interact with the computer.
+ On the other hand, when using the CLI, the user should enter commands to perform the tasks. Overall, GUI is more user-friendly,
+ but the execution speed is higher in CLI.
+Python has a lot of GUI libraries/Some of the most important GUI libraries in oython are:
+Kivy
+QT
+wxPython and Tkinter
+Among all these Tkinter is the most poupular and most used libraray for  creating GUI applications.Tkinter provides an easy way to create gui apps
+It gives us an 
+object-oriented interface to the Tk GUI Toolkit
+
+
+The steps involved to create a tkinter app are:
+
+1.import tkinter module.we need not install tkinter moudule again as it comes with python by default
+2.Create a main window.it is in this window we perofim operations,displaying visulas and everything.
+3.adding widgets to the main window
+4.enter the main event loop.an event loop is telling the code to diplay the window until he manually closes that winodw
+
+
+as seen this code we are importing the tkinter module and then defining a window
+we are then actually setting the geometry of the window as 500 pxX 300 px.
+ans we are also setting the maxsize and min size of the window same so that we cannot extend or minimise the window.Here we are also defining a title to the main window as PAint application
+
+
+widgets are the elements in GUi that enables us to display/interact with the os
+these are some of the widgets suppored by tkinter are label,button,checbox,canvas,frames.
+these widgets are the reason why the tkinter is so popular
+
+
+
+The widgets which we have used in our project are labes,buttons,frames,Scale,canvas etc
+
+
+
+Label widget is used to display information or output to the user.
+Button widget is similar to label and in the text portion we write what the widget has to display
+we have a grid function to place the buttons on the main window.since the row is 0 and column is 0 it places it in the start
+we can also change the fg and bg of a button using fg and bg parametres.
+
+but when we click on a buttton something should happen right.for this we have a click event.we use command as a parameter while
+ declaring a button.This command has the func name and it dircts to that function whenevr it is clicked and the function performs some operations
+
+
+
+we can add images to the buttons using Photoimage button
+
+we tkinter widgets have some geometric measurments.with the help of this geometric measurments we add frames,widgets to the main window
+p
+g
+pla
+
+pack is used to orgainzse the widgets in a partivular block.that means it takes the whole width
+
+gid uses the matrix row and matrix columns to organise the widgets
+
+place is used to organise the widgets accorginf to the cooradinate axis
+
+
+
+
+frame class is a used to create divisons in the main window.It is just taken as a container.
+
+Calling functions whenever an event ocuurs is called as a binding functions.
+
+tkinter provides canvas widget to draw anything.On the top of this widget we can gdraw anthing like lines,circles.
+Just like button widget we have canvas widget 
+where we some parameters like root,bg colour and height and wdith.
+
+
+The Tkinter module has a package in it named colorchooser. This package of the Tkinter module helps in developing the
+ color chooser dialog box. This package has a function named askcolor() that plays a major role.
+ As soon as the function is called, it makes the color chooser dialogue box pop up.
+ The function returns the hexadecimal code of the color selected by the user.                                                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
